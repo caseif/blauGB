@@ -1,0 +1,11 @@
+[package]
+name = "radGB"
+version = "0.1.0"
+authors = ["Max Roncace"]
+description = "Game Boy emulator written in Rust"
+edition = "2018"
+readme = "README.md"
+
+[[bin]]
+name = "radgb"
+path = "src/bin.rs"
